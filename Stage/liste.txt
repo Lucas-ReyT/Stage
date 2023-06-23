@@ -1,0 +1,569 @@
+Tree_app=list(
+    Comptabilty = list(
+      Open_sheet = list(
+        Metadata = list(),
+        People = list(),
+        Species_Details = list(),
+        Species_Data = list(),
+        Species_Metadata = list()
+      )
+    ),
+    Structure = list(
+      NameColumn = list(
+        Metadata = list(),
+        People = list(),
+        Species_Details = list(),
+        Species_Data = list(),
+        Species_Metadata = list()
+      )
+    ),
+    Format = list(
+      #### >> METADATA ####
+      Metadata = list(
+        meta_id = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error: Null, NotUnique 
+        ),
+        Country_code = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error: Null, Notexist
+        ),
+        Experiment_name = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : TooLong, Null
+          
+        ),
+        Experimental_manipulation = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Experiment_insitu = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Experiment_climate = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Experiment_citizen = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Experiment_design = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Experiment_DOI = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong, NotURL
+        ),
+        Experiment_comment = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Sites_iD = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Elevation = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        Habitat_type = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Habitat_sub_type = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Sites_comment = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Logger_code = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Raw_data_identifier = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Latitude = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        Longitude = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        EPSG = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        GPS_Accuracy = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Logger_serial_number = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Logger_brand = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Logger_type = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Logger_age = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Logger_comment = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Sensor_code = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Sensor_shielding = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Sensor_shielding_type = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Microclimate_measurement = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotInList
+        ),
+        Unit = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Sensor_accuracy = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Temporal_resolution = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Sensor_height = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Sensor_length = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Start_date_year = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        Start_date_month_day = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotPossible
+        ),
+        End_date_year = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        End_date_month_day = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotPossible
+        ),
+        Timezone = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotInList
+        ),
+        Time_difference = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooSmall, TooBig
+        ),
+        Licence = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotInList
+        ),
+        Sensor_comments = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Species_composition = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        Species_trait = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+          
+        ) 
+      ),
+      ##### >> PEOPLE ####
+      People = list(
+        Firstname = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Lastname = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Middlename_initials = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Email = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong, Not@
+        ),
+        Second_email = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong, Not@
+        ),
+        OrcID = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        SoilTemp_update = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotBoolean
+        ),
+        meta_id = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Status_timeseries = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotInList
+        ),
+        survey_id = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Status_species_data = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotInList
+        ),
+        Comments = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        )
+      ),
+      ##### >> SPECIES DETAILS ####
+      Species_Details = list(
+        Site_id = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, NotTheSame(?)
+        ),
+        Species_name = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Species_trait = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Species_trait_unit = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Species_trait_value = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        Comments = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        )
+      ),
+      #### >> SPECIES DATA ####
+      Species_Data = list(
+        Survey_id = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, 
+        ),
+        Site_id = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, toolong
+        ),
+        Species_name = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, toolong
+        ),
+        Presence = list(
+          detect = list(),
+          df = data.frame(  )
+          #Possible error :Null, toolong
+        ),
+        Biomass = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, toolong
+        ),
+        Biomass_unit = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, 
+        ),
+        Cover = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Cover_scale = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Cover_unit = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        LAI = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Density = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Density_unit = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Vegetation_layer = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Comments = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        )
+      ),
+      #### >> SPECIES METADATA ####
+      Species_Metadata = list(
+        Site_id = list(
+          detect = list(),
+          df = data.frame(  )
+        ),
+        Observation_date_year = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Observation_date_month_day = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error :Null,
+        ),
+        Plot_size = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error :Null,
+        ),
+        Survey_method_short = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Survey_method_long = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Multilayer_vegetation = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        Taxonomic_reference = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error :  Null,
+        ),
+        "Total biomass" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Total biomass unit" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover unit" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Total plant cover" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover E3: Tree_app layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover E2: shrub layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover E1: herb layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover E0: moss layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover rock" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Cover baresoil" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        LAI = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "LAI unit" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Species richness" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Height E3: Tree_app layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Height E2: shrub layer" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Height E1: herb layer " = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null,
+        ),
+        "Soil bulk density" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, toolong
+        ),
+        "Soil bulk density unit" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, toolong
+        ),
+        Other  = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, Toolong
+        ),
+        "Other unit" = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, TooLong
+        ),
+        DOI = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error : Null, Toolong
+        ),
+        Licence = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error :Null, TooLong
+        ),
+        Comment = list(
+          detect = list(),
+          df = data.frame(  )
+          #possible error :Null, TooLong
+        )
+        
+      )
+    )
+  )
